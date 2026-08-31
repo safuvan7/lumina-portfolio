@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "lumina-portfolio-12345",
+          "appId": "1:437709008389:android:07007c24b6f9cdbf6f366c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "lumina-portfolio-12345",
+          "configurations": {
+            "android": "1:437709008389:android:07007c24b6f9cdbf6f366c",
+            "ios": "1:437709008389:ios:e024c0815d16f9af6f366c",
+            "macos": "1:437709008389:ios:e024c0815d16f9af6f366c",
+            "web": "1:437709008389:web:df546346a99502906f366c",
+            "windows": "1:437709008389:web:d77fd8d1b83b14e66f366c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
